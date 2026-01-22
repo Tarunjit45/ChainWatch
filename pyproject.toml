@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "chainwatch"
+version = "0.1.0"
+description = "A flight data recorder for multi-step AI systems."
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = {extras = ["all"], version = "^0.9.0"}
+pydantic = "^2.5.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+chainwatch = "chainwatch.cli:app"
