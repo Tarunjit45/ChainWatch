@@ -10,16 +10,16 @@ ChainWatch is a flight data recorder for multi-step AI systems. It's a CLI-based
 
 ## ✨ Key Features & Architecture
 
-- **High-Performance Architecture:** Engineered using modern `Python` best practices.
-- **Modular & Scalable Design:** Structured code organization for easy maintenance and deployment.
+- **High-Performance Codebase:** Built using `Python` and modern engineering principles.
+- **Modular & Scalable Design:** Structured directory tree for seamless development and deployment.
 
-## 🛠️ Tech Stack & Technologies
+## 🛠️ Tech Stack & Dependencies
 
-- **Primary Language:** `Python`
-- **Frameworks & Libraries:** Python
-- **Deployment Target:** Vercel Edge / Cloud Infrastructure
+- **Core Language:** `Python`
+- **Libraries & Tools:** Python
+- **Deployment Infrastructure:** Vercel Edge / Cloud Services
 
-## 📁 Project Directory Structure
+## 📁 Architecture & File Layout
 
 ```text
 ChainWatch/
@@ -38,16 +38,16 @@ ChainWatch/
 ├── chains/chain_001.jsonl
 ├── chains/chain_002.jsonl
 ├── chainwatch
-└── ... [additional source files]
+└── ... [additional codebase files]
 ```
 
-## 🚀 Getting Started
+## 🚀 Quickstart & Installation
 
 ### Prerequisites
 - Python 3.9+
 - pip package manager
 
-### Installation & Local Setup
+### Setup Instructions
 
 1. **Clone the repository:**
    ```bash
@@ -60,12 +60,12 @@ ChainWatch/
    pip install -r requirements.txt
    ```
 
-3. **Run the application:**
+3. **Execute application:**
    ```bash
    python main.py
    ```
 
-## 📜 License & Author
+## 📜 Author & License
 
-Engineered with ❤️ by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
-Released under the **MIT License**.
+Architected & Developed by **[Tarunjit Biswas](https://github.com/Tarunjit45)**.  
+Distributed under the **MIT License**.
